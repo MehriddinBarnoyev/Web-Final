@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+.btn{
+  display: inline-block;
+  padding: 0.8rem 3.8rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid var(--sc-color);
+  outline: 0;
+  background: #3EC1D5;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+  color:white;
+  width: 73%;
+}
+.btn:hover{
+  background: none;
+  color:  #3EC1D5;
+}
+.container{
+  width: 70%;
+  margin: auto;
+}
+.title{
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.sign-up{
+ display: grid;
+ justify-content: center;
+}
+.scooba{
+  color: #3ED1D5;
+}
+h3{
+  font-size: 2rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+    margin-bottom: 20px;
+}
+.signup-form input{
+  height: 50px;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: #1f2949;
+  font-size: 14px;
+  width: 70%;
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+

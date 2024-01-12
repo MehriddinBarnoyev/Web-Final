@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn fonawsam  -->
+    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
+    <!-- swipper cdn  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init("rBJ8torHKp3VzLa8l");
+        })();
+    </script>
+
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 550px;
+            height: 430px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 600px;
+            height: 400px;
+        }
+
+        .gmap_iframe {
+            width: 550px !important;
+            height: 430px !important;
+        }
+    </style>
+
+    <title>Party Time</title>
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="header">
+        <a href="#home" class="logo"><span class="scooba">PARTY </span> TIME</a>
+
+        <nav class="navbar">
+            <a href="#home" data-after="Home">Home</a>
+            <a href="#about" data-after="About">About</a>
+            <a href="#services" data-after="Services">Services</a>
+            <a href="#projects" data-after="Packages">Packages</a>
+            <a href="#contact" data-after="Contact">Contact</a>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <!-- /header  -->
+    <!-- home  -->
+    <div class="home" id="home">
+        <div class="swiper home-slid">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/hero-carousel/pexels-omar-ramadan-19709928.jpg" alt="image" style="width: 100%; height: 100vh;">
+                    </div>
+                    <div class="content">
+                        <h3>WELCOME TO PARTY TIME</h3>
+
+                        <p>The best Party TIME experience in Uzbekistan</p>
+                        <a href="login.html" class="btn" target="_blank">Contact us</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/hero-carousel/pexels-tae-fuller-1616113.jpg" alt="image" style="width: 100%; height: 100vh;">
+                    </div>
+                    <div class="content">
+                        <h3>Unforgettable experience</h3>
+
+                        <a href="login.html" class="btn" target="_blank">Join us</a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="img/hero-carousel/pexels-asad-photo-maldives-169198.jpg" alt="image" style="width: 100%; height: 100vh;">
+                    </div>
+                    <div class="content">
+                        <h3>Explore the biodiversity of Tashkent with us</h3>
+
+                        <a href="login.html" class="btn" target="_blank">Join us</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <!-- /home  -->
+    <!-- about  -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About us</h2>
+            <div></div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="about-title">
+                    <h2>Scooba life</h2>
+                </div><br>
+                <div class="about-info">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem 
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                        unknown printer took a galley of type and scrambled it to make a type specimen
+                         book. It has survived not only five centuries...</p>
+                </div>
+
+                <a href="about.html"><button class="btn button" id="#services">Read more</button></a>
+
+            </div>
+            <div class="box">
+                <div class="about-title">
+                    <h2>Our purpose</h2>
+                </div><br>
+                <div class="about-info">
+                    <p>Our company was founded to help people how to orginize more interesting and enjoyable holidays ,
+                        and to explore underwater. If people do not no how to dive deeper , we have special courses to
+                        train them and we give to our clients some special tools which are help to stay underwater
+                        longer</p>
+                </div>
+
+                <a href="about.html"><button class="btn button" id="#services">Read more</button></a>
+
+            </div>
+        </div>
+    </section>
+    <!-- /about  -->
+    <!-- services  -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Our services </h2>
+            <div></div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div> <i class="fa-solid fa-briefcase"></i></div><br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                     when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries, but also the leap into
+                       electronic typesetting.</p>
+            </div>
+
+        </div>
+        <div class="book-div">
+            <a href="#" class="btn book">Book now</a>
+        </div>
+
+
+    </section>
+    <!-- /services  -->
+
+    <!-- team  -->
+    <div class="team" id="team">
+
+        <div class="heading">
+            <h2>Our package </h2>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="swiper team-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="content">
+                            <h3> Bronze </h3>
+                            <p> Xona bezaklari , sharlar, bannerlar
+                                Stol bezaklari , markazdagi gullar, sovg'alar
+                                 DJ hizmati,
+                                Sovuq taomlar </p>
+
+                        </div>
+                        <!-- <div class="image">
+                            <img src="img/hero-carousel/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.jpg" alt="image">
+                        </div> -->
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="content">
+                            <h3> Kumush</h3>
+                            <p>Bronza paketidagi barchasi va
+                                Taklifnomani loyihalash,
+                                Jonli ijro guruhi,
+                                Sovuq taomlar va turli sharbatlar </p>
+
+                        </div>
+                        <!-- <div class="image">
+                            <img src="img/hero-carousel/portrait-cheerful-businessman-dressed-suit.jpg" alt="image">
+                        </div> -->
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="content">
+                            <h3> Gold </h3>
+                            <p>Kumush paketidagi barchasi va:
+                                To'liq mukammallikni ta'minlash uchun ishtirok etadigan xodimlar
+                                Mehmonlar uchun turar joy topish,
+                                Jonli ijro guruhi ,
+                                Issiq va sovuq taomlar</p>
+
+                        </div>
+                        <!-- <div class="image">
+                            <img src="img/hero-carousel/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop.jpg" alt="image">
+                        </div> -->
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="content">
+                            <h3>Jon</h3>
+                            <p>Member of diving team and teacher of the package courses</p>
+
+                        </div>
+                        <div class="image">
+                            <img src="img/hero-carousel/img3.jpg" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="content">
+                            <h3>Jon</h3>
+                            <p>Superviser of holiday orginizers</p>
+
+                        </div>
+                        <div class="image">
+                            <img src="img/testimonials/testimonials-5.jpg" alt="image">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="projects">
+        <div class="projects container">
+            <div class="heading">
+                <h2>Our packages</h2>
+                <div></div>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3> Birthday party </h3>
+                        <p>
+                        <ul class="offer">
+                            <li> 2 x Mult animal</li>
+                            <li> 4 x Kino qahramonlar</li>
+                            <li> Yozuvlar </li>
+                            <li> 4 x kalonakalr </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="img/hero-carousel/img6.webp" alt="img" style="height: 450px;">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Chaqaloqlarni kutib olish </h3>
+                        <p>
+                        <ul class="offer">
+                            <li> 2 x Mult hayvonlar</li>
+                            <li> 4 x Kino qahramonlar</li>
+                            <li> 1 ta Rols Roys.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="img/hero-carousel/img8.webp" alt="img" style="height: 600px;">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>To'y va marosimlar </h3>
+                        <p>
+                        <ul class="offer">
+                            <li> 2 x Mult hayvonlar</li>
+                            <li> 4 x Kino qahramonlar</li>
+                            <li> 1 ta Rols Roys.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="img/hero-carousel/img7.webp" alt="img" style="height: 450px;">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- blog  -->
+
+    <div class="welcam">
+        <span>Welcom to our company </span>
+        <a href="login.html" class="btn">start now</a>
+    </div>
+    <!-- .contact  -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact us</h2>
+            <div></div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <div>Call: +99898-998-98-98</div>
+                <div>Monday-Friday (9am-8pm) </div>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-envelope"></i>
+                <div>Email: partytime@gmail.com</div>
+                <div>Web: www.exaple.com</div>
+            </div>
+            <div class="content">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>Location: Uzbekistan Tashkent</div>
+                <div>Uzbekistand</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="ifarm">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=PDP university&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://www.gachacute.com/">Download</a></div>
+
+                </div>
+            </div>
+            <div class="form-c">
+                <form onsubmit="sendMail(event)">
+                    <input type="text" placeholder="Enter to name" id="toName">
+                    <input type="text" placeholder="Enter from name" id="fromName">
+                    <textarea name="" cols="30" rows="10" id="msg"></textarea>
+                    <button class="btn">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /contact  -->
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="content">
+                <h3><span class="scooba">Party</span> Time</h3>
+                <p>Party Time is a company that offers scuba diving courses and holidays.</p>
+                <div class="shar">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+
+
+        </div>
+        <p class="rights">© 2024 Party Time Company. All rights reserved.</p>
+
+    </footer>
+    <!-- /footer  -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
